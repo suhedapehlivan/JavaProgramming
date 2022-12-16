@@ -1,0 +1,60 @@
+Custom Class:
+	1. Instance variables & instance methods
+	2. toString,
+	3. Constrctores
+	4. statics
+	...
+
+
+Car Class:
+
+	Attributes:
+		brand, model, color, year, price
+
+	Actions:
+		drive(), start(), stop(), toString(), setInfo()
+
+
+Student Class:
+
+	Attributes:
+		name, gender, age, studentID
+
+	Actions:
+		eat(), sleep(), drink(), code()
+		setInfo(): to set all the attributes of student object
+		toString(): to print the full info of student
+
+
+Carobjects:
+
+	create 3 objects of Car
+
+
+
+
+
+
+this. keyword: used for calling the instance variables
+
+
+
+
+Employee Class:
+
+		Attributes:
+			name, id, gender, jobTitle, salary, isFullTime(boolean)
+
+		Actions:
+			toString(): to be bale to print each employee object
+			setInfo(): to be able to set all the attributes
+			work()...
+
+CapitalOne Class:
+
+	1. create 5 Employee objects
+	2. store those 5 employee objects into an array
+	3. how many employees are full time employees?
+	4. What's the minimum salary
+	5. what's the maximum salary
+

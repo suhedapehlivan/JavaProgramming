@@ -1,0 +1,27 @@
+
+
+Overloading with custom Medhod
+if there are similar functionality in method
+ methods in same class
+ give same name to method: overloading
+ parameters must be different
+
+ overloading:same method name different parameters
+
+ Method Overloading: multiple different methods sharing the same method name
+ 			same method name, different parameters
+
+ 			return type, access modifiers and specifiers can be same or can be different
+
+ 			Advantage:
+ 				1. easy to memorize
+ 				2. easy to read
+ 				3. reusable
+ 				4. flexible
+
+
+
+ Utility Classes:
+ 	StringUtility
+ 	ArrayUtility
+ 	NumberUtility

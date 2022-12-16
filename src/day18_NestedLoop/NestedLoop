@@ -1,0 +1,3 @@
+Nested loop:  loop inside another loop (inner & outer loops)
+
+        one iteration of the outer loop, executes all the iteration of the inner loop

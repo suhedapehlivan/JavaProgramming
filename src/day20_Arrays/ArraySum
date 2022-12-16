@@ -1,0 +1,45 @@
+
+Array: one of the three data structures
+		size is fixed
+		supports primitives & non-primitives
+		can be multi-dimensional
+
+
+	one dimensional array: array of elements
+			[index Of Elements]
+
+	multi-dimensional array: array of arrays. two or more dimensional ([][]..)
+			[index of Arrays][index Of Elements]
+			[][][]
+			.....
+
+			n dimensional array contains (n-1) dimensional array
+
+
+Arrays: utility class for array. in "java.util" package
+
+		toString()  :print array
+		deepToString()   :print multidim array
+		sort()  :order small to large
+		equals()  :if equals
+		copyOf()   :copy from first element
+		copyOfRange()   :copy with range
+
+
+String methods:
+	toCharArray()  :if you want to get each of characters from string has array return char array
+	split()   :string array return to string array
+
+
+for each loop: already iterated, so it is faster
+			    iteration order is fixed. so it doesnt go infinite.
+
+			    THERE MUST BE A DATA STRUCTURE (Array, Collection, Map)
+                Start from index 0. doesnt get index number, only gets element.
+                Data type has to match array type(string-string, int-int)
+                loops are powerful than for each loop, we can do everything for loop, not for each loop
+			    for(DataType variable : Array){
+
+			    }
+
+

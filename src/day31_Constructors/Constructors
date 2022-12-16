@@ -1,0 +1,20 @@
+
+regular methods:
+
+		Access-Modifiers  Specier  ReturnType methodName(Parameter){
+
+		}
+
+
+Constructor: A Special method
+
+
+	syntax:
+		Access-Modifiers  ClassName(Parameter){
+
+		}
+
+
+	used for creating objects
+
+	Execution depends on the object

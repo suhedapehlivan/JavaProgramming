@@ -1,0 +1,63 @@
+
+
+String Class
+
+presented in "java.lang" package
+
+*Any class in "java.lang" package can be imported implicitly. ( compiler do it, we dont)
+if you use any class from any other package, you must import, but not String Class.
+
+*an object that represent sequences of characters
+String is for char sequences, combination of multiple characters.
+"Cydeo" part is Objects.
+Her karakter bir numara ifade eder. This number is Index number, index number starts from Zero.
+"Cydeo" 5 karakterli ama numara 4 e kadar olur, çünkü C - 0 dan başladı.
+
+*String is immutable, once the object is created it cant be modified.
+We cannot change the objects after we create, because objects are immutable.
+
+*There are two ways to create String object;
+1-by String Literal
+2-by new keyword
+
+1-Creating String Object by String Literal
+-Created by using double quotes " "  ->  String str = "Java";
+-Created in the special memory called "String Pool":(String Literal için ayrı bir memory location)
+
+String Pool
+-An allocation of memory in Java Heap memory
+-The objects they can be stored in the memory location: Heap
+-All the local variables that you are creating, they dont take extra memory, and they are stored in Stack.
+-If the String already exists in the pool, a reference to the pooled instance is returned.
+-Javada yaptığın her object Heap de depolanır.
+-for String Literals, String pool is special memory location inside the Heap.
+
+tablo
+
+* If we have more than one String objects that are sharing the same sequence of characters in the same order;
+In the String Pool, there would NOT be multible objects be created. Only one! and this objects share the variables.
+
+String str1 = "Java";      -----> String pool doesnt doubligate!
+String str2 = "Java";
+
+sout str1 == str2  -> true
+
+2-Creating String Object by new keyword
+-Creates new different object in the Heap.
+
+String str1 = new String("Java");      ----> new String part is stored outside of String Pool in Heap
+String str2 = new String("Java");
+
+*If the word same, it creates NEW object store in Heap. Because new keyword always create new!
+
+sout str1 == str2  -> false
+
+tablo
+
+*Compare visible packs of two Strings
+-comparing values of objects, use equal method.  (  .equal( ));
+String s1 = "Java";
+String s2 = new String("Java");
+
+sout( s1.equals(s2) );    ->true
+Java - java --> false

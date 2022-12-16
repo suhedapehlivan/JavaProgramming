@@ -1,0 +1,51 @@
+
+Method: Function
+
+Task:
+		step1 : reverse "Java"
+		....
+
+		step5: rverse "python"
+		...
+
+
+		step10: reverse "Cydeo"
+		...
+
+
+
+
+
+		public  static  void  main(String[] args){
+
+		}
+
+	declaring a method:
+
+		Access-Modifier	 Specifier	  ReturnType     MethodName(Parameter){
+
+		}
+
+		Access modifiers: public, protected, default, private
+
+		Specifier:  static, final, abstract, synchronized
+
+		Return Type: void, Any Data Type
+
+		Method Name: can be any name
+
+		parameter: Any Data Type
+
+
+Custom Methods:
+	1. void methods
+	2. void methods with argumnets
+	3. return methods
+	4. returns with argumnet
+	5. overloading
+
+
+
+create a function that can print all the numbers between X and Y
+
+

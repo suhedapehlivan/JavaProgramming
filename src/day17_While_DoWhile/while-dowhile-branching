@@ -1,0 +1,17 @@
+while loop: repeated if statement
+
+	while(condition){
+		statement;
+	}
+
+
+do -while : JUST DO IT
+
+		do{
+			statement;
+		}while(condition);
+
+
+branching statements:
+			break statement: exits the loop & switch
+			continue statement: skips the current iteration

@@ -1,0 +1,69 @@
+Switch Statement: switch, case, default, break
+
+Advantage of Switch st: performance of switch st is faster than is st.
+
+if is a lot more powerful than switch, çünkü
+her switch kullanılan yerde if kullanılır ama her if kullanılan yerde switch kullanılmaz.
+
+Data sadece int, String ve char kullanılabilir!
+
+*only use == not use || &&
+*break olmazsa bir sonraki de executed olur. ya break ya closing curly braces gerekli
+
+never use on switch : long, float, double, boolean
+	syntax:
+		switch(Data){
+
+			case data1:
+					Statements;
+					break;
+
+			case data2:
+					Statements;
+					break;
+
+			default:
+					Statements;
+					break;
+
+		}
+
+
+
+	Case value MUST match with switch' data type and UNIQUE
+
+	Switch' Data can not be long, float, double and boolean data types
+
+	break: used for exiting the switch.
+			if we don't give the break statement, switch statement continue to execute the next block(s) until the break statement or } of the switch
+
+	default block gets executed if none of the case blocks matched.
+			there can only be one default block
+
+	or logic we can use it in switch by declaring case blocks back to back
+
+
+
+Task:
+	1. NameOfMonth  (1~12)
+	2. NumberToWord (0~9)
+	3. a char variable named grade is given. use switch statement to print the following messages:
+			'A': excellent
+			'B': great job
+			'C': good
+			'D': passed
+			'F': failed
+			other wise: invalid
+
+
+	4. NumberOfDays
+			28 Days: 2
+			30 days: 4, 6, 9, 11
+			31 days: 1, 3, 5, 7, 8, 10, 12
+
+			If(1~12){
+
+
+			}else{
+				Invalid
+			}

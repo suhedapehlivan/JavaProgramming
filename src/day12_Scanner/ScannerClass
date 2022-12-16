@@ -1,0 +1,37 @@
+
+
+Scanner Class: used fot getting inputs
+               needs to be imported from "java.util"
+
+               *First:Import
+               syntex of import statement:
+                          import package.class;
+                          import java.util.Scanner;  (use this generally)
+               *Second: Sout Enter bla bla for user to understand
+               *Third: Declare
+                       Scanner variableName = new Scanner(System.in);
+
+               *Fourth: Scanner Methods
+                    int num= variableName.nextInt();
+
+               *Fifth:     than
+                    *String result = ""; //temporary
+                    *if
+                    sout result
+
+               *Last: Closing
+               variablename.close();
+
+
+       Boolean= nextBoolean();  user input olarak sadece true or false yazabilir
+       String =    next();   one word input.tek kelime ise(kelimeler arası bosluksuz yazarsan da olur)
+                   nextLine();  reads everything until press enter. birden fazla kelime, normal yazı ise
+
+           ** nextLine(); if we are using nextLine() method after the other methods of scanner, we must provide
+           one addition nextLine();     -> to clear scanner
+           when you use nextLine method after the other methods of scanner
+           it is ignore enter key, to avoid ignoring enter key we should add input.nextLine(); before nextline
+
+           nextInt method
+           input.nextLine(); (for enter)
+           nextline method

@@ -1,0 +1,92 @@
+
+import vs extends:
+		import: borrowing
+		extends: owning
+
+
+	inherit ->pass it through
+	import -> let using
+
+
+
+Inheritance Topic:
+		Is A relation
+		extends keyword
+		super keyword & constructor
+		Types of Inheritance
+		Is A relation vs Has A relation
+		Method Overriding
+
+
+
+Today:
+	Is A relation
+	extends keyword
+
+Tomorrow:
+		super keyword & constructor
+		Types of Inheritance
+
+
+Next Thursday:
+	Is A relation vs Has A relation
+	Method Overriding
+
+
+Next Friday:
+	implement both Inheritance and Encapsulation
+
+
+
+
+
+Task:
+
+	Animal:
+		name, breed, gender, size, age, color
+		setInfo(), eat(), drink(), move(), sleep(), toString()
+
+
+	Dog extends Animal:
+			bark()
+
+	Cat extends Animal:
+			scratch()
+
+	Tiger extends Animal:
+			roar()
+
+	Fish extends Animal:
+			swim()
+
+	...
+
+
+
+
+
+
+
+
+lunch task:
+
+	Employee:
+		name, gender, age, jobTitle, id, salary, companyName
+		setInfo(), work(), toString()
+
+
+	Tester
+
+	Developer
+
+	Driver
+
+	Teacher
+
+
+
+
+
+
+
+

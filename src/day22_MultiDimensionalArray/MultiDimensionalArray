@@ -1,0 +1,16 @@
+Single Dimensional Array: container for the elements
+		10
+		20
+		40
+
+		int[] array = {10, 20, 30};
+
+
+Multi Dimensional Array: container for the arrays
+                         if you have [][] two brackets
+                         N dimensional array contains N-1 dimensional array
+                         you can make infinite dimensions if you want
+
+difference between single dimensional array is;
+single dimensional array is for the elements, when you have multiple data to store.
+multi dimensional array is for arrays when you store multiple arrays.

@@ -1,0 +1,59 @@
+Return methods
+				return method vs void method
+
+
+
+
+
+
+
+method: grouping code fragments ===> creating a function
+
+			advantage: improves the re-usability of our codes
+
+
+			                             MUST      MUST
+		Access-Modifier   specifier   return-type  name  (Parameter){
+
+					code fragments
+
+		}
+
+		Access modifier: public
+				public: ALWAYS ACCESSIBLE
+
+		Specifier: static
+				static: method can be called through its class name
+
+
+		ReturnType: void, any dataType
+				void: does not return a value (a data)
+				any dataType: MUST return a value (a data)
+
+		Parameter: any dataType (if the method needs additional info to complete function)
+
+		Method Name: meaningful, descriptive (just like variable name rules)
+
+
+
+
+What's method? grouping code fragments ===> creating a function
+What's void method? return type, void doest return a value(a data)
+what's parameter? if the method needs additional info to complete function
+
+What's return method?
+
+
+return method: return type is not void
+				MUST return a value
+
+
+return statement: used for exiting the method
+				 we can use it for returning a value from return methods
+
+
+branching statements:
+	continue: skipping the current iteration - loop
+	break: exits the loop or switch
+	return: exiting the method (one method, current method)
+	System.exit(0): exits the system (EVERY THING WILL BE TERMINATED)

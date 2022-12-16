@@ -1,0 +1,52 @@
+Loop: repeated action
+
+	for loop: iteration is fixed. we know repeating time exactly
+
+			for( initi; condition; iteration){
+				statements
+			}
+
+			initialization: starting point (where the loop start)
+					int i = 5;
+
+			condition: ending point(where the loop stop)
+					i < 10 ,  i >= 0
+
+			iterator: Co-related to the condition. runs long enough to make the condition false
+			          (increase of decrease until ending point)
+					i++, i++
+
+
+	while loop: iteration is not fixed. we DONT know repeating time exactly. -> repeated If
+                (like if statement, it condition is true, statement gets executed.
+                difference is if statement executed one time, while more than one time, because it is loop)
+
+			while(condition){
+				statements
+			}
+
+
+	do-while loop: iteration is not fixed.we DONT know repeating time exactly.
+                   difference between while and do-while loop.
+                   in while: if condition is false, statement never executed
+                   in do-while loop: even the condition is false, there is one executed statement, because it is before than condition
+			do{
+				statements
+			}while(condition);
+
+			at least gets executed once
+
+
+Curly braces {} = it is mandatory if there is more than one statements
+if we have one statement repeating in loop curly braces are NOT mandatory
+but in order to make it readable we can use {}
+
+Nested Loop: loop inside a loop (inner & outer)
+
+		outer loop repeats the inner
+
+Branching statements:
+		break: exits the loop & switch
+		continue: skips the current iteration of the loop
+		System.exit(0): terminates the current program, terminates the JVM
+		(no error)

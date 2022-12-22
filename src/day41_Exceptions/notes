@@ -59,3 +59,11 @@ Exception handlings:
 Interview Question:
 
 		final vs finally vs finalize
+
+        Difference between final vs finally vs finalize.
+
+        final: is a KEYWORD for variables, methods, classes. and make them unchangeable.
+
+        finally: is a BLOCK. optional for try§catch (last block)  in exception handling. It always get executed, if we manually not terminate the program.
+
+        finalize: is a METHOD that the garbage collector calls it to destroy the object. It comes from Object class, and every object has finalize method.

@@ -1,0 +1,31 @@
+Topic: Exceptions Continue
+				Throws keyword
+				Throw keyword
+				Custom Exceptions
+
+
+
+
+Exception Handlings:
+
+		1. try & catch: used for handling checked & unchecked exceptions
+
+				try{
+					exception code
+				}catch(ExceptionType e){
+					e.printStackTrace();
+				}
+
+		2. throws: used for handling checked exceptions ONLY
+
+						Caller of the method will be responsible for handling the exception
+
+
+
+throw keyword: used for manually throw exception
+
+		throw ExceptionObject
+
+	String browser = "Cydeo";
+
+

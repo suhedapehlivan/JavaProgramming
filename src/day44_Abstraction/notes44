@@ -1,0 +1,96 @@
+OOP Abstraction: concentrating on essentials (what it is), not worrying about the details/implementation (how it's done)
+
+		Abstract method: A method without the implementation/body
+
+							meant to be overridden
+
+				area();
+				perimeter();
+				...
+				eat();
+				..
+
+		2 ways to achieve the abstraction:
+				1. Abstract class
+				2. Interface
+
+
+
+		Abstract class: meant to be super class (parent)
+						can not be final
+						Not concrete ( can not create object)
+
+						can have all the methods, variables, and blocks of non-abstract class + abstract methods
+
+
+
+Animal Task:
+	interface Swimmable:
+		swim()
+
+	interface Flyable:
+		 fly();
+
+	Interface Wild:
+		hunt();
+
+	interface Plyable:
+		play();
+
+	Abstract Animal:
+		 eat()
+		 drink()
+
+
+
+   Dog extends Animal implemnts Plyable, Swimmable
+
+   Cat extends Animal implemnts Plyable
+
+   Cow extends Animal implemnts Plyable
+
+   Horse extends Animal implemnts Plyable
+
+   Parrot extends Animal implemnts Plyable, Flyable
+
+   Tiger extends Animal implements Wild
+
+   Lion extends Animal implements Wild
+
+   Eagle extends Animal implements Wild, Flyable
+
+   Falcon extends Animal implements Wild, Flyable
+
+   Dolphin extends Animal implemnts Plyable, Swimmable
+
+   Shark extends Animal implements Wild, Swimmable
+
+   Duck extends Animal implements Swimmable, Flyable, Plyable
+
+   Java extends Animal implements Swimmable, Flyable, Plyable, Wild
+
+   ...
+
+
+
+Person implements Swimmable, Plyable
+
+Boat implements Swimmable
+
+Airplane implemnts Flyable
+
+CydeoCar implements Swimmable, Flyable
+
+
+
+
+
+
+
+
+
+
+
+
+
+

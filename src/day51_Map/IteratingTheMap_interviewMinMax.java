@@ -3,7 +3,7 @@ package day51_Map;
 
 import java.util.*;
 
-public class IteratingTheMap {
+public class IteratingTheMap_interviewMinMax {
 
     public static void main(String[] args) {
 
